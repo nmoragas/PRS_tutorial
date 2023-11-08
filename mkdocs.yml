@@ -1,7 +1,6 @@
 site_name: Polygenic Risk Score (PRS) Tutorial
 site_url: https://github.com/nmoragas/PRS_tutorial
-site_author: you
-site_description: a short description of your website
+site_author: Núria Moragas Garcia
 
 nav:
   - About: index.md
@@ -10,4 +9,5 @@ theme:
     name: readthedocs
     highlightjs: false
 
-css: style.css
+extra_css: 
+  - style.css
