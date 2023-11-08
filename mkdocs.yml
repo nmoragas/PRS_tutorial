@@ -4,7 +4,7 @@ site_url: https://nmoragas.github.io/PRS_Tutorial/
 site_author: Núria Moragas Garcia
 
 nav:
-  - About: index.md
+  - index.md
 
 theme: 
     name: readthedocs
