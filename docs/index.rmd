@@ -1,6 +1,3 @@
-![](rmd_fig/0_mcc_logo.png)
-
-
 # INTRODUCTION
 
 The purpose of this tutorial is to furnish a step-by-step guide on the execution of a Polygenic Risk Score (PRS) analysis, accompanied by an introduction to fundamental genetic principles germane to this methodology.
