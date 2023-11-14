@@ -62,3 +62,8 @@ To carry out this PRS analysis it is necessary two types of data. Here is the li
 For more information regarding the format of the data to be used or how to adapt see [here](#step0)
 
 </div>
+
+## Tutorial
+
+Follow the html called PRS tutorial
+
