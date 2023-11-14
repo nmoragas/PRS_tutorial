@@ -1,0 +1,76 @@
+
+  .question {
+    background-color: #fadfcf; /* Color de fons per a la pregunta */
+    padding: 10px; /* Espai interior del quadre */
+    border: 1px solid #ccc; /* Borda del quadre */
+  }
+
+
+.question summary::before {
+    content: "\25BC"; /* Código de entidad HTML para la flecha hacia abajo */
+    padding-right: 10px; /* Espacio entre la flecha y el título */
+  }
+
+
+.console_R {
+  background-color: #c8dbe6; /* Color de fons per a la pregunta */
+    padding: 1px; /* Espai interior del quadre */
+    border: 1px solid #ccc; /* Borda del quadre */
+}
+
+.console_bash {
+  background-color: #d6d6b8; /* Color de fons per a la pregunta */
+    padding: 1px; /* Espai interior del quadre */
+    border: 1px solid #ccc; /* Borda del quadre */
+}
+
+
+.language {
+      color: gray;
+}
+
+.code {
+  color: black;
+}
+
+details > summary{
+    font-size: 100%
+}
+
+.note p.admonition-title{
+    color: white !important;
+    background: #555599 !important;
+}
+
+.admonition.note {
+    background: #F0F0FF !important;
+}
+
+.admonition.warning {
+    background: #FFEEEE !important;
+}
+
+.warning p.admonition-title {
+    color: white !important;
+    background: #FF6666 !important;
+}
+
+knitr::knit_hooks$set(
+   error = function(x, options) {
+     paste('\n\n<div class="alert alert-danger">',
+           gsub('##', '\n', gsub('^##\ Error', '**Error**', x)),
+           '</div>', sep = '\n')
+   },
+   warning = function(x, options) {
+     paste('\n\n<div class="alert alert-warning">',
+           gsub('##', '\n', gsub('^##\ Warning:', '**Warning**', x)),
+           '</div>', sep = '\n')
+   },
+   message = function(x, options) {
+     paste('\n\n<div class="alert alert-info">',
+           gsub('##', '\n', x),
+           '</div>', sep = '\n')
+   }
+)
+
+
