@@ -6,7 +6,7 @@ output:
 css: style.css
 ---
  
-      
+       
 ![](figures/0_mcc_logo.png)
 
 <style>
