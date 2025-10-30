@@ -38,7 +38,7 @@ The tutorial is divided into two sections, First, a series of basic concepts abo
     - **PLINK 2** - https://www.cog-genomics.org/plink/2.0/ 
     - **bcftools** - http://www.htslib.org/download/ 
 <br>    
-- **R** 
+- **R**  
 
 ### - R Library
 
