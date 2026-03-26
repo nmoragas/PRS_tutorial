@@ -9,7 +9,7 @@ The tutorial is divided into two sections, First, a series of basic concepts abo
 
 0. [STEP 0: Data selection + QC check](#step0)
 1. [STEP 1: SNPs Extraction](#step1) 
-2. [STEP 2: SNPs Alignament check](#step2) 
+2. [STEP 2: SNPs Alignament check](#step2)  
 3. [STEP 3: Quality control (QC)](#step3) 
 4. [STEP 4: PRS calculation](#step4)   
 5. [STEP 5: PRS resultsn](#step5)         
