@@ -835,9 +835,9 @@ knitr::kable(head(freq))
 
 ambiguous_snps <- freq[freq$ALT_FREQS > 0.4 & freq$ALT_FREQS< 0.6 & 
                         ((freq$REF == "A" & freq$ALT == "T") | 
-                         (freq$ALT == "T" & freq$REF == "A") | 
+                         (freq$ALT == "A" & freq$REF == "T") | 
                          (freq$REF == "C" & freq$ALT == "G") | 
-                         (freq$ALT == "G" & freq$REF == "C")), ]
+                         (freq$ALT == "C" & freq$REF == "G")), ]
 
 ```
 </div>
